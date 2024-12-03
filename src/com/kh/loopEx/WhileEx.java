@@ -33,5 +33,13 @@ public class WhileEx {
 
 
     }
+    /*
+    do while()
+    조건식이 뒤에 작성된 while문
+    조건식이 true가 아니더라도 최초 1회 이상의 반복을 보장
+    do {
+    최초 1회는 무조건 수행하되, 1회부터는 while문이 true 여야 실행
+    } while(조건);
 
+     */
 }
