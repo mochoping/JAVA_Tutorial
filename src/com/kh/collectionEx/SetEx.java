@@ -28,7 +28,7 @@ public class SetEx {
      */
     public static void main(String[] args) {
         Set<String> set = new HashSet<String>();
-        set.add("a");
+        HashSet<String> s2 = new HashSet<>();
     }
 
 }
