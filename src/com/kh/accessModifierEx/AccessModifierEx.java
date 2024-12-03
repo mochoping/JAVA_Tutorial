@@ -29,5 +29,5 @@ private String 변수명;
 
 
 
-    }
+
 }
