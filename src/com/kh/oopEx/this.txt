@@ -1,0 +1,34 @@
+this.
+현재 클래스에
+
+
+
+
+class Student{
+            String name; //
+        Student(String name){
+                this.name = name;
+                // class Student 바로 아래 필드를 바라보는것
+                //         name은 student(String name) 을 바라보는 것
+
+        }
+}
+
+this()
+현재 클래스에서 다른 생성자를 호출할 때 사용
+
+class Student{
+    String name;
+
+    // 기본생성자에서 name에 직접접으로 값을 넣어줌
+    Student(){
+    this("홍길동");
+    }
+}
+
+아래 코드와 동일함.
+다른점은 홍길동이 변화할 수 있으나 , 변화 방식이 다름.
+
+class Student{
+    String name = "홍길동"
+}
