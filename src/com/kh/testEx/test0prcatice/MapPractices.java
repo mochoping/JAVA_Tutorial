@@ -1,4 +1,4 @@
-package com.kh.practiceEx.filePre;
+package com.kh.testEx.test0prcatice;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -10,7 +10,7 @@ public class MapPractices {
         Map<String, Integer> map = new HashMap<>(); // K,V 값으로 이루어진 map선언, 출력순서는 랜덤. 값을 저장하고 얽힌 값을 불러오기 좋음.
         MapPractices m = new MapPractices();
         map.put("a", 1);
-        map.put("b", -2);
+        map.put("b", 2);
         map.put("c", 3);
         map.put("d", 4); // 생성한 맵에 데이터 넣기
 
